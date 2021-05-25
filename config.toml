@@ -1,4 +1,17 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "rundum4K"
+title = "Meine Seite - Blog und Podcast"
 theme = "castanet"
+
+ [params.authors]
+    [params.authors.Matt]
+      name	= "Matt Stratton"
+
+      
+
+[[Menu.Main]]
+    name = "Kontakt"
+    identifier = "w"
+    url = "kontakt"
+
+    
